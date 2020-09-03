@@ -8,7 +8,7 @@ import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
-import com.rusel.RCTBluetoothSerial.RCTBluetoothSerialPackage;
+import br.com.tecsinapse.BluetoothSerial.BluetoothSerialPackage;
 import com.remobile.toast.RCTToastPackage;
 
 import java.util.Arrays;
@@ -26,7 +26,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-          new RCTBluetoothSerialPackage(),
+          new BluetoothSerialPackage(),
           new RCTToastPackage()
       );
     }

@@ -1,4 +1,4 @@
-package com.rusel.RCTBluetoothSerial;
+package br.com.tecsinapse.BluetoothSerial;
 
 import java.lang.reflect.Method;
 import java.util.Set;
@@ -26,10 +26,10 @@ import com.facebook.react.bridge.WritableArray;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
-import static com.rusel.RCTBluetoothSerial.RCTBluetoothSerialPackage.TAG;
+import static br.com.tecsinapse.BluetoothSerial.BluetoothSerialPackage.TAG;
 
 @SuppressWarnings("unused")
-public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule implements ActivityEventListener, LifecycleEventListener {
+public class BluetoothSerialModule extends ReactContextBaseJavaModule implements ActivityEventListener, LifecycleEventListener {
 
     // Debugging
     private static final boolean D = true;
@@ -48,7 +48,7 @@ public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule impleme
     private static final int REQUEST_PAIR_DEVICE = 2;
     // Members
     private BluetoothAdapter mBluetoothAdapter;
-    private RCTBluetoothSerialService mBluetoothService;
+    private BluetoothSerialService mBluetoothService;
     private ReactApplicationContext mReactContext;
 
     private StringBuffer mBuffer = new StringBuffer();
@@ -60,7 +60,7 @@ public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule impleme
     private Promise mPairDevicePromise;
     private String delimiter = "";
 
-    public RCTBluetoothSerialModule(ReactApplicationContext reactContext) {
+    public BluetoothSerialModule(ReactApplicationContext reactContext) {
         super(reactContext);
 
         if (D) Log.d(TAG, "Bluetooth module started");
@@ -72,7 +72,7 @@ public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule impleme
         }
 
         if (mBluetoothService == null) {
-            mBluetoothService = new RCTBluetoothSerialService(this);
+            mBluetoothService = new BluetoothSerialService(this);
         }
 
         if (mBluetoothAdapter != null && mBluetoothAdapter.isEnabled()) {
@@ -88,7 +88,7 @@ public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule impleme
 
     @Override
     public String getName() {
-        return "RCTBluetoothSerial";
+        return "BluetoothSerial";
     }
 
     @Override

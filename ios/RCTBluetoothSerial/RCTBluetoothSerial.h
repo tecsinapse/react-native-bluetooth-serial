@@ -1,6 +1,6 @@
 //
-//  RCTBluetoothSerial.h
-//  RCTBluetoothSerial
+//  BluetoothSerial.h
+//  BluetoothSerial
 //
 //  Created by Jakub Martyčák on 17.04.16.
 //  Copyright © 2016 Jakub Martyčák. All rights reserved.
@@ -12,7 +12,7 @@
 //#import "RCTEventEmitter.h" Wasnt working properly yet, events were fired but listeneres not called
 #import "BLE.h"
 
-@interface RCTBluetoothSerial : NSObject <RCTBridgeModule,BLEDelegate> {
+@interface BluetoothSerial : NSObject <RCTBridgeModule,BLEDelegate> {
     BLE *_bleShield;
     BOOL _subscribed;
     RCTPromiseResolveBlock _connectionResolver;

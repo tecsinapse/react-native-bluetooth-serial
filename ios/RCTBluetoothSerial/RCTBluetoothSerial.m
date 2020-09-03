@@ -1,14 +1,14 @@
 //
-//  RCTBluetoothSerial.m
-//  RCTBluetoothSerial
+//  BluetoothSerial.m
+//  BluetoothSerial
 //
 //  Created by Jakub Martyčák on 17.04.16.
 //  Copyright © 2016 Jakub Martyčák. All rights reserved.
 //
 
-#import "RCTBluetoothSerial.h"
+#import "BluetoothSerial.h"
 
-@interface RCTBluetoothSerial()
+@interface BluetoothSerial()
 - (NSString *)readUntilDelimiter:(NSString *)delimiter;
 - (NSMutableArray *)getPeripheralList;
 - (void)sendDataToSubscriber;
@@ -19,7 +19,7 @@
 - (void)connectUuidTimer:(NSTimer *)timer;
 @end
 
-@implementation RCTBluetoothSerial
+@implementation BluetoothSerial
 
 RCT_EXPORT_MODULE();
 

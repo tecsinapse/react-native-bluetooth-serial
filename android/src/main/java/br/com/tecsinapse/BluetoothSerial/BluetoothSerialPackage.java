@@ -1,4 +1,4 @@
-package com.rusel.RCTBluetoothSerial;
+package br.com.tecsinapse.BluetoothSerial;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,17 +10,16 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.bridge.JavaScriptModule;
 
-public class RCTBluetoothSerialPackage implements ReactPackage {
+public class BluetoothSerialPackage implements ReactPackage {
     static final String TAG = "BluetoothSerial";
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new RCTBluetoothSerialModule(reactContext));
+        modules.add(new BluetoothSerialModule(reactContext));
         return modules;
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }

@@ -23,7 +23,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		1B5991E6D2084827A0EEF806 /* libRCTBluetoothSerial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E5869E913F472391A7E2DD /* libRCTBluetoothSerial.a */; };
+		1B5991E6D2084827A0EEF806 /* libBluetoothSerial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E5869E913F472391A7E2DD /* libBluetoothSerial.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -93,10 +93,10 @@
 		};
 		69152A791D849C5500E1497E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 668BEC63F97C4C7EA898E4E7 /* RCTBluetoothSerial.xcodeproj */;
+			containerPortal = 668BEC63F97C4C7EA898E4E7 /* BluetoothSerial.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 69CA06031CC43C2900AF6479;
-			remoteInfo = RCTBluetoothSerial;
+			remoteInfo = BluetoothSerial;
 		};
 		69152A821D849C5500E1497E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -142,10 +142,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BluetoothSerialExample/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		46924618C8744864AD7EF72E /* libRCTToast.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTToast.a; sourceTree = "<group>"; };
-		668BEC63F97C4C7EA898E4E7 /* RCTBluetoothSerial.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTBluetoothSerial.xcodeproj; path = "../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial.xcodeproj"; sourceTree = "<group>"; };
+		668BEC63F97C4C7EA898E4E7 /* BluetoothSerial.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BluetoothSerial.xcodeproj; path = "../node_modules/react-native-bluetooth-serial/ios/BluetoothSerial.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		C4E5869E913F472391A7E2DD /* libRCTBluetoothSerial.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTBluetoothSerial.a; sourceTree = "<group>"; };
+		C4E5869E913F472391A7E2DD /* libBluetoothSerial.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBluetoothSerial.a; sourceTree = "<group>"; };
 		D2D10C282FE44494856E0B13 /* RCTToast.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTToast.xcodeproj; path = "../node_modules/@remobile/react-native-toast/ios/RCTToast.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,7 +173,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				0C7C4CEFF59945EB9723DCBF /* libRCTToast.a in Frameworks */,
-				1B5991E6D2084827A0EEF806 /* libRCTBluetoothSerial.a in Frameworks */,
+				1B5991E6D2084827A0EEF806 /* libBluetoothSerial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +278,7 @@
 		69152A731D849C5500E1497E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69152A7A1D849C5500E1497E /* libRCTBluetoothSerial.a */,
+				69152A7A1D849C5500E1497E /* libBluetoothSerial.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -313,7 +313,7 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				D2D10C282FE44494856E0B13 /* RCTToast.xcodeproj */,
-				668BEC63F97C4C7EA898E4E7 /* RCTBluetoothSerial.xcodeproj */,
+				668BEC63F97C4C7EA898E4E7 /* BluetoothSerial.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -419,7 +419,7 @@
 				},
 				{
 					ProductGroup = 69152A731D849C5500E1497E /* Products */;
-					ProjectRef = 668BEC63F97C4C7EA898E4E7 /* RCTBluetoothSerial.xcodeproj */;
+					ProjectRef = 668BEC63F97C4C7EA898E4E7 /* BluetoothSerial.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
@@ -527,10 +527,10 @@
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		69152A7A1D849C5500E1497E /* libRCTBluetoothSerial.a */ = {
+		69152A7A1D849C5500E1497E /* libBluetoothSerial.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libRCTBluetoothSerial.a;
+			path = libBluetoothSerial.a;
 			remoteRef = 69152A791D849C5500E1497E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -683,7 +683,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/@remobile/react-native-toast/ios/RCTToast",
-					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial",
+					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/BluetoothSerial",
 				);
 				INFOPLIST_FILE = BluetoothSerialExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -705,7 +705,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/@remobile/react-native-toast/ios/RCTToast",
-					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial",
+					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/BluetoothSerial",
 				);
 				INFOPLIST_FILE = BluetoothSerialExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -757,7 +757,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/@remobile/react-native-toast/ios/RCTToast",
-					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial",
+					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/BluetoothSerial",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -799,7 +799,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/@remobile/react-native-toast/ios/RCTToast",
-					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial",
+					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/BluetoothSerial",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;

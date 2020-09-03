@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69CA06071CC43C2900AF6479 /* RCTBluetoothSerial.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69CA06061CC43C2900AF6479 /* RCTBluetoothSerial.h */; };
-		69CA06091CC43C2900AF6479 /* RCTBluetoothSerial.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CA06081CC43C2900AF6479 /* RCTBluetoothSerial.m */; };
+		69CA06071CC43C2900AF6479 /* BluetoothSerial.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69CA06061CC43C2900AF6479 /* BluetoothSerial.h */; };
+		69CA06091CC43C2900AF6479 /* BluetoothSerial.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CA06081CC43C2900AF6479 /* BluetoothSerial.m */; };
 		69CA06161CC49D5E00AF6479 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CA06101CC49D5E00AF6479 /* BLE.m */; };
 		69CA06171CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CA06131CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.m */; };
 /* End PBXBuildFile section */
@@ -20,16 +20,16 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				69CA06071CC43C2900AF6479 /* RCTBluetoothSerial.h in CopyFiles */,
+				69CA06071CC43C2900AF6479 /* BluetoothSerial.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		69CA06031CC43C2900AF6479 /* libRCTBluetoothSerial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTBluetoothSerial.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		69CA06061CC43C2900AF6479 /* RCTBluetoothSerial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTBluetoothSerial.h; sourceTree = "<group>"; };
-		69CA06081CC43C2900AF6479 /* RCTBluetoothSerial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTBluetoothSerial.m; sourceTree = "<group>"; };
+		69CA06031CC43C2900AF6479 /* libBluetoothSerial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBluetoothSerial.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CA06061CC43C2900AF6479 /* BluetoothSerial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothSerial.h; sourceTree = "<group>"; };
+		69CA06081CC43C2900AF6479 /* BluetoothSerial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothSerial.m; sourceTree = "<group>"; };
 		69CA060F1CC49D5E00AF6479 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
 		69CA06101CC49D5E00AF6479 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
 		69CA06111CC49D5E00AF6479 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		69CA05FA1CC43C2900AF6479 = {
 			isa = PBXGroup;
 			children = (
-				69CA06051CC43C2900AF6479 /* RCTBluetoothSerial */,
+				69CA06051CC43C2900AF6479 /* BluetoothSerial */,
 				69CA06041CC43C2900AF6479 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,12 +59,12 @@
 		69CA06041CC43C2900AF6479 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69CA06031CC43C2900AF6479 /* libRCTBluetoothSerial.a */,
+				69CA06031CC43C2900AF6479 /* libBluetoothSerial.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69CA06051CC43C2900AF6479 /* RCTBluetoothSerial */ = {
+		69CA06051CC43C2900AF6479 /* BluetoothSerial */ = {
 			isa = PBXGroup;
 			children = (
 				69CA060F1CC49D5E00AF6479 /* BLE.h */,
@@ -72,18 +72,18 @@
 				69CA06111CC49D5E00AF6479 /* BLEDefines.h */,
 				69CA06121CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.h */,
 				69CA06131CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.m */,
-				69CA06061CC43C2900AF6479 /* RCTBluetoothSerial.h */,
-				69CA06081CC43C2900AF6479 /* RCTBluetoothSerial.m */,
+				69CA06061CC43C2900AF6479 /* BluetoothSerial.h */,
+				69CA06081CC43C2900AF6479 /* BluetoothSerial.m */,
 			);
-			path = RCTBluetoothSerial;
+			path = BluetoothSerial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69CA06021CC43C2900AF6479 /* RCTBluetoothSerial */ = {
+		69CA06021CC43C2900AF6479 /* BluetoothSerial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69CA060C1CC43C2900AF6479 /* Build configuration list for PBXNativeTarget "RCTBluetoothSerial" */;
+			buildConfigurationList = 69CA060C1CC43C2900AF6479 /* Build configuration list for PBXNativeTarget "BluetoothSerial" */;
 			buildPhases = (
 				69CA05FF1CC43C2900AF6479 /* Sources */,
 				69CA06001CC43C2900AF6479 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = RCTBluetoothSerial;
-			productName = RCTBluetoothSerial;
-			productReference = 69CA06031CC43C2900AF6479 /* libRCTBluetoothSerial.a */;
+			name = BluetoothSerial;
+			productName = BluetoothSerial;
+			productReference = 69CA06031CC43C2900AF6479 /* libBluetoothSerial.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69CA05FE1CC43C2900AF6479 /* Build configuration list for PBXProject "RCTBluetoothSerial" */;
+			buildConfigurationList = 69CA05FE1CC43C2900AF6479 /* Build configuration list for PBXProject "BluetoothSerial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69CA06021CC43C2900AF6479 /* RCTBluetoothSerial */,
+				69CA06021CC43C2900AF6479 /* BluetoothSerial */,
 			);
 		};
 /* End PBXProject section */
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CA06091CC43C2900AF6479 /* RCTBluetoothSerial.m in Sources */,
+				69CA06091CC43C2900AF6479 /* BluetoothSerial.m in Sources */,
 				69CA06161CC49D5E00AF6479 /* BLE.m in Sources */,
 				69CA06171CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.m in Sources */,
 			);
@@ -248,7 +248,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69CA05FE1CC43C2900AF6479 /* Build configuration list for PBXProject "RCTBluetoothSerial" */ = {
+		69CA05FE1CC43C2900AF6479 /* Build configuration list for PBXProject "BluetoothSerial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69CA060A1CC43C2900AF6479 /* Debug */,
@@ -257,7 +257,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69CA060C1CC43C2900AF6479 /* Build configuration list for PBXNativeTarget "RCTBluetoothSerial" */ = {
+		69CA060C1CC43C2900AF6479 /* Build configuration list for PBXNativeTarget "BluetoothSerial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69CA060D1CC43C2900AF6479 /* Debug */,
